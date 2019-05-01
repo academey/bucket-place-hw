@@ -1,0 +1,41 @@
+{
+	"name": "bucket-place-hw",
+	"version": "1.0.0",
+	"description": "Hw for bucket place",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest --watchAll"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/academey/bucket-place-hw.git"
+	},
+	"author": "academey",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/academey/bucket-place-hw/issues"
+	},
+	"homepage": "https://github.com/academey/bucket-place-hw#readme",
+	"devDependencies": {
+		"@babel/core": "^7.4.3",
+		"@babel/preset-env": "^7.4.3",
+		"babel-jest": "^24.7.1",
+		"jest": "^24.7.1",
+		"prettier": "^1.17.0"
+	},
+	"jest": {
+		"verbose": true
+	},
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"prettier": {
+		"printWidth": 120,
+		"trailingComma": "es5",
+		"tabWidth": 4,
+		"singleQuote": true,
+		"useTabs": true
+	}
+}
